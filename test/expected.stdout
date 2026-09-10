@@ -1,0 +1,12 @@
+Testing throwException and catchException
+Testing another caught exception
+Testing Error properties
+All tests passed
+[OK] error names, messages, rendering and absent native stack
+[OK] throwing and catching effects are deferred and replayable
+[OK] successful effects bypass handlers and try returns Right
+[OK] exceptions stop the remaining Effect and Ref sequence
+[OK] a handler exception reaches the outer handler exactly once
+[OK] throwing, catching and rethrowing preserve error and cause identity
+[OK] try preserves structured values from references
+[OK] unsafeThrowException is intercepted while evaluating an effect
